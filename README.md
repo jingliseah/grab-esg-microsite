@@ -4,6 +4,8 @@ An interactive ESG microsite experience developed for :contentReference[oaicite:
 
 Built with Vue 3, Vite, TailwindCSS, and GSAP to transform complex sustainability reporting into a responsive and engaging frontend experience.
 
+<img width="1620" height="1080" alt="Thumbnail_V2" src="https://github.com/user-attachments/assets/f32503c9-9406-41fe-86e1-7826e32d1da5" />
+
 ---
 
 ## Overview
