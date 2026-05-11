@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="40" height="39.782" viewBox="0 0 40 39.782">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6199" data-name="Rectangle 6199" width="40" height="39.782" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_10912" data-name="Group 10912" clip-path="url(#clip-path)">
+    <path id="Path_30010" data-name="Path 30010" d="M18.824,29.873A11.529,11.529,0,1,1,30.353,41.4,11.53,11.53,0,0,1,18.824,29.873Z" transform="translate(-10.243 -9.982)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+    <path id="Path_30011" data-name="Path 30011" d="M9.552,36.447a19.721,19.721,0,1,1,11.024,3.368" transform="translate(-0.466 -0.204)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+    <path id="Path_30012" data-name="Path 30012" d="M12.274,69.823s-3.7,0-2.974,3.337" transform="translate(-5.01 -37.995)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+    <path id="Path_30013" data-name="Path 30013" d="M54.2,49.981l-.108-.18c-1.741-3.12-4.716-6.6-8.561-3.99-1.451.944-1.451,2.83-1.233,4.5.144,1.217.779,4.057.447,5.526A11.524,11.524,0,0,0,54.2,49.981" transform="translate(-24.049 -24.429)" fill="#fff"/>
+    <path id="Path_30014" data-name="Path 30014" d="M18.824,30.27a11.509,11.509,0,0,0,.75,4.092l.328.3c4.158,0,6.419-2.376,6.419-6.534,0-3.147,4.537-6.285,1.281-9.054a11.533,11.533,0,0,0-8.777,11.2" transform="translate(-10.243 -10.379)" fill="#fff"/>
+    <path id="Path_30015" data-name="Path 30015" d="M50.244,20.292l-.166.016c-2.539.653-4.425,4.715-1.016,5.731.653.218,1.378-.072,2.032.072.725.218,1.161.943,1.741,1.378a3.325,3.325,0,0,0,3.628.435l.38-.319a11.557,11.557,0,0,0-6.6-7.315" transform="translate(-25.692 -11.042)" fill="#fff"/>
+    <path id="Path_30016" data-name="Path 30016" d="M11.055,64.842a7.05,7.05,0,0,0-1.59-2.419,5.262,5.262,0,0,0-7.319.063l.071-.067s-.035.031-.092.087-.1.094-.1.094l.072-.069A5.722,5.722,0,0,0,.378,66.608c.146,1.423.939,3.847,4.461,5.213a23.425,23.425,0,0,0,6.982.863A21.666,21.666,0,0,0,11.055,64.842Z" transform="translate(-0.204 -33.167)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+  </g>
+</svg>

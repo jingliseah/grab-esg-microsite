@@ -1,0 +1,66 @@
+body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+
+    -ms-overflow-style: none;
+    /* IE and Edge */
+    scrollbar-width: none;
+    /* Firefox */
+
+    &::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+.main-container {
+    background: black;
+    position: relative;
+}
+
+.wrapper {
+    position: relative;
+    display: block;
+    // all 800px elements + all 100vw elements + margins-right on all but the last element
+    // width: 100vw;
+
+    @media (min-width: theme('screens.lg')) {
+        height: 100vh;
+    }
+}
+
+.thumbnail {
+    height: 100%;
+    // will become 800px in width because of the padding
+    width: 100vw;
+    color: white;
+    overflow: hidden;
+
+    // padding: 10px;
+
+    // opacity: 0.8;
+    background-color: black;
+
+    @media (min-width: theme('screens.lg')) {
+        display: inline-block;
+        float: left;
+        height: 100vh;
+        // width: calc(800px - 20px);
+    }
+}
+
+.full {
+    // the second extra '-20px' on here is just related to the fake-pinning and having space to the right side, when it happens
+    // width: calc(100vw - 20px - 20px);
+    width: 100vw;
+}
+
+// for quiz overlay blocking issue
+#pillar-one .pin-spacer-section-21,
+#pillar-one .section-21,
+#pillar-two .pin-spacer-section-8,
+#pillar-two .section-8,
+#pillar-four .pin-spacer-section-5,
+#pillar-four .section-5 {
+    pointer-events: none;
+}

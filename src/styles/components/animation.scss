@@ -1,0 +1,26 @@
+.button-pulse {
+    animation: pulse 3s infinite 3s cubic-bezier(0.25, 0, 0, 1);
+    box-shadow: 0 0 0 0 theme('colors.green');
+}
+@keyframes pulse {
+    0% {
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+    }
+    70% {
+        -moz-transform: scale(1);
+        -ms-transform: scale(1);
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        box-shadow: 0 0 10px 40px rgba(121, 80, 242, 0);
+    }
+    100% {
+        -moz-transform: scale(0.95);
+        -ms-transform: scale(0.95);
+        -webkit-transform: scale(0.95);
+        transform: scale(0.95);
+        box-shadow: 0 0 40px 0 rgba(121, 80, 242, 0);
+    }
+}

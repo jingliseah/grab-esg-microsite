@@ -1,0 +1,57 @@
+#pulse-wrapper {
+    display: flex;
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 9999;
+    top: 0;
+    background-color: black;
+
+    #pulse {
+        margin: auto;
+
+        span {
+            position: absolute;
+            width: 10.31vh;
+            height: 10.31vh;
+            border-radius: 50%;
+            background: theme('colors.green');
+            animation: pulse_animation 1.8s infinite;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%,-50%);
+            
+            @media (min-width: theme('screens.lg')) {
+                transform: translate(-50%,-50%);
+            }
+
+            &:nth-child(2) {
+                animation-delay: 0.7s;
+                /* Start the second wave with some delay */
+            }
+        }
+    }
+
+    .text {
+        position: absolute;
+        margin-top: -6.63vh;
+        margin-left: -6.63vh;
+        top: 0;
+        left: 0;
+        width: 100vw;
+        height: 100vw;
+        z-index: 50;
+        color: white;
+    }
+}
+
+@keyframes pulse_animation {
+    0% {
+        box-shadow: 0 0 0 0 rgba(0, 177, 79, 0.8);
+    }
+
+    100% {
+        box-shadow: 0 0 0 200px rgba(0, 177, 79, 0);
+    }
+}

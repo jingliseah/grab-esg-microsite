@@ -1,0 +1,108 @@
+.quiz-slider-container {
+    // max-width: 500px;
+    // margin: 40px auto;
+    background-color: white;
+    padding: 2rem 3rem;
+    padding-top: 4rem;
+
+    @media (min-width: theme('screens.lg')) {
+        padding: 4rem 8rem;
+        padding-top: 8rem;
+    }
+}
+
+.quiz-slider {
+    width: 100%;
+    position: relative;
+
+    .quiz-slider-track {
+        height: 0.714rem;
+        background: #E8E8E8;
+        border-radius: 512px;
+
+        @media (min-width: theme('screens.lg')) {
+            height: 1.143rem;
+        }
+    }
+
+    .quiz-slider-progress {
+        position: absolute;
+        height: 100%;
+        width: 0;
+        background: theme('colors.green');
+        top: 0;
+        left: 0;
+        transition: all 300ms ease;
+        border-radius: 512px;
+    }
+
+    .quiz-slider-indicators {
+        span {
+            position: absolute;
+            top: -2.5rem;
+            color: theme('colors.gray');
+            font-weight: bold;
+            font-size: 0.857rem;
+
+            @media (min-width: theme('screens.lg')) {
+                font-size: 1.714rem;
+                top: -5rem;
+            }
+        }
+    }
+
+    .quiz-slider-steps {
+        span {
+            background: theme('colors.green');
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            margin: auto;
+            height: 6px; //0.429rem;
+            width: 6px; //0.429rem;
+            border-radius: 100px;
+
+            @media (min-width: theme('screens.lg')) {
+                height: 10px; //0.714rem;
+                width: 10px; //0.714rem;
+            }
+        }
+    }
+
+
+
+    .quiz-slider-thumb {
+        height: 2.571rem;
+        width: 2.571rem;
+        background: theme('colors.green');
+        border-radius: 512px;
+        position: absolute;
+        left: 0;
+        top: 0;
+        transform: translateX(-50%) translateY(-35%);
+        transition: all 300ms ease;
+        cursor: move;
+        cursor: grab;
+        cursor: -moz-grab;
+        cursor: -webkit-grab;
+
+        @media (min-width: theme('screens.lg')) {
+            height: 5.429rem;
+            width: 5.429rem;
+        }
+    }
+
+    &.drag-in-progress {
+
+        .quiz-slider-progress,
+        .quiz-slider-thumb {
+            transition: none;
+        }
+
+        .quiz-slider-thumb {
+            cursor: -webkit-grabbing;
+            cursor: -moz-grabbing;
+        }
+    }
+
+}

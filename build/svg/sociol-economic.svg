@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="80" height="77.248" viewBox="0 0 80 77.248">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_5567" data-name="Rectangle 5567" width="80" height="77.248" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_9972" data-name="Group 9972" transform="translate(0 0)">
+    <g id="Group_9972-2" data-name="Group 9972" transform="translate(0 0)" clip-path="url(#clip-path)">
+      <path id="Path_29540" data-name="Path 29540" d="M77.924,16.066,64.86.582,51.8,16.066h7.512V75.827a1.025,1.025,0,0,0,1.024,1.024h9.054a1.024,1.024,0,0,0,1.024-1.024V16.066Z" transform="translate(1.25 0.014)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_29541" data-name="Path 29541" d="M40.788,34.377a15.794,15.794,0,1,0,15.794,15.8,15.8,15.8,0,0,0-15.794-15.8m.649,24.451-.478,2.782H37.648l.5-2.967a13.849,13.849,0,0,1-3.072-1.007v-4l.078-.079a13.725,13.725,0,0,0,5.3,1.324c1.431,0,2.6-.425,2.6-1.324s-1.06-1.245-2.277-1.618l-1.406-.422c-2.756-.821-4.636-2.2-4.636-5.378,0-2.995,2.411-4.823,5.749-5.087l.476-2.65h3.313l-.479,2.834a13.411,13.411,0,0,1,2.466.664v3.976l-.134.077a12.305,12.305,0,0,0-4.716-1.008c-1.376,0-2.251.4-2.251,1.113,0,.744.664,1.034,2.119,1.459l1.458.424c2.384.687,4.716,1.854,4.716,5.457,0,3.339-2.6,5.167-6.014,5.431" transform="translate(0.603 0.829)" fill="#fff"/>
+      <path id="Path_29542" data-name="Path 29542" d="M26.935,38.083,13.871,22.6.807,38.083H8.319V75.295a1.024,1.024,0,0,0,1.024,1.024H18.4a1.023,1.023,0,0,0,1.024-1.024V38.083Z" transform="translate(0.019 0.545)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_29543" data-name="Path 29543" d="M44.917,33.5V25.072H52.43L39.366,9.588,26.3,25.072h7.511v9.477" transform="translate(0.635 0.231)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+      <path id="Path_29544" data-name="Path 29544" d="M33.636,65.637v8.619A1.025,1.025,0,0,0,34.66,75.28h9.055a1.023,1.023,0,0,0,1.024-1.024V66.689" transform="translate(0.812 1.584)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+    </g>
+  </g>
+</svg>

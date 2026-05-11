@@ -1,0 +1,109 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import './scrollTrigger.scss';
+@import './components/animation.scss';
+@import './components/quiz-slider.scss';
+@import './components/loading-screen.scss';
+// Sanomat Grab Web Medium Regular Fonts
+
+@import './fonts.scss';
+
+/**
+ *
+ * Background classes
+ * ------------------
+ * class="bg-blue bg-gray-2 bg-green bg-yellow bg-red bg-gray-1 bg-gray-2 bg-gray-3 bg-gray-4 bg-gray-5 bg-gray-6 bg-pink bg-violet-light bg-purple"
+ *
+ *
+ * Font classes
+ * ------------------
+ * class="text-wine text-black text-white text-yellow text-peach"
+ *
+ *
+ * Border classes
+ * ------------------
+ * class="border-wine border-black border-white"
+ *
+ * Margin classes
+ * ------------------
+ * class = "mt-5 mt-10 mt-12 mt-14 mt-16 mt-20 mt-24 mt-28 mt-32 mb-5 mb-10 mb-12 mb-14 mb-16 mb-20 mb-24 mb-28 mb-32   
+ *  
+ * Right classes
+ * ------------------
+ * class = "right-3 right-4 right-5 right-6 right-7 right-8 right-9 right-10 right-11 right-12 right-14 right-16 right-20
+ * 
+ * Left classes
+ * ------------------
+ * class = "left-3 left-4 left-5 left-6 left-7 left-8 left-9 left-10 left-11 left-12 left-14 left-16 left-20
+ * 
+ * Bottom classes
+ * ------------------
+ * class = "bottom-3 bottom-4 bottom-5 bottom-6 bottom-7 bottom-8 bottom-9 bottom-10 bottom-11 bottom-12 bottom-14 bottom-16 bottom-20
+ *
+ * Top classes
+ * ------------------
+ * class = "top-3 top-4 top-5 top-6 top-7 top-8 top-9 top-10 top-11 top-12 top-14 top-16 top-20
+ *
+ * Justify classes
+ * class = "xl:justify-start" 
+ */
+
+html {
+    /* scroll-behavior: smooth; */
+}
+
+html,
+body {
+    font-family: 'GrabComunitySolid', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    -webkit-font-smoothing: antialiased;
+    color: green;
+
+    @media (min-width: theme('screens.lg')) {
+        font-size: 1.3vh;
+    }
+
+    @media (min-width: theme('screens.2xl')) {
+        font-size: 1.45vh;
+    }
+
+    @media (min-width: theme('screens.2xl')) and (display-mode: fullscreen) {
+        /* every CSS goes here that you want 
+        to apply or alter in the fullscreen mode*/
+        font-size: 1.4vh;
+    }
+}
+sup {
+    font-size: 50%;
+    top: -0.7em;
+}
+.blue-fade {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(
+        left,
+        rgba(0, 84, 120, 1) 0%,
+        rgba(0, 84, 120, 0) 20%,
+        rgba(0, 84, 120, 0) 80%,
+        rgba(0, 84, 120, 0.65) 100%
+    );
+    box-shadow: 30px 0 5px 10px #dfebeb;
+}
+
+.light-blue-fade {
+    height: 100%;   
+    width: 100%;
+    position: absolute;
+    background: -webkit-linear-gradient(
+        left,
+        rgba(224, 236, 236, 1) 0%,
+        rgba(224, 236, 236, 0) 20%,
+        rgba(224, 236, 236, 0) 80%,
+        rgba(224, 236, 236, 0.65) 100%
+    );
+    box-shadow: 30px 0 5px 10px #dfebeb;
+}

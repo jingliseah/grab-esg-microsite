@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="51.016" height="92.746" viewBox="0 0 51.016 92.746">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_6332" data-name="Rectangle 6332" width="51.016" height="92.746" transform="translate(0 0)" fill="none" stroke="#fff" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Group_11203" data-name="Group 11203" transform="translate(0 0)" clip-path="url(#clip-path)">
+    <path id="Path_30449" data-name="Path 30449" d="M50.641,50.154V85.371a7,7,0,0,1-7,7H7.375a7,7,0,0,1-7-7v-78a7,7,0,0,1,7-7H43.641a7,7,0,0,1,7,7V50.154Z" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+    <path id="Path_30450" data-name="Path 30450" d="M32.938,6.7a1.581,1.581,0,0,1-1.58,1.58H19.66a1.581,1.581,0,1,1,0-3.161h11.7A1.582,1.582,0,0,1,32.938,6.7" fill="#fff" stroke="#fff" stroke-width="1"/>
+    <line id="Line_490" data-name="Line 490" x2="50.336" transform="translate(0.34 13.337)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+    <line id="Line_491" data-name="Line 491" x2="50.336" transform="translate(0.34 75.3)" fill="none" stroke="#fff" stroke-miterlimit="10" stroke-width="0.75"/>
+    <path id="Path_30451" data-name="Path 30451" d="M22.03,83.835a3.477,3.477,0,1,1,3.477,3.478,3.478,3.478,0,0,1-3.477-3.478" fill="#fff" stroke="#fff" stroke-width="1"/>
+    <path id="Path_30452" data-name="Path 30452" d="M39.261,22.292a1.31,1.31,0,1,1,0,2.62h-27.5a1.31,1.31,0,1,1,0-2.62Z" fill="#fff" stroke="#fff" stroke-width="1"/>
+    <path id="Path_30453" data-name="Path 30453" d="M39.261,29.532a1.311,1.311,0,0,1,0,2.622h-27.5a1.311,1.311,0,1,1,0-2.622Z" fill="#fff" stroke="#fff" stroke-width="1"/>
+    <path id="Path_30454" data-name="Path 30454" d="M39.261,36.773a1.31,1.31,0,1,1,0,2.62h-27.5a1.31,1.31,0,1,1,0-2.62Z" fill="#fff" stroke="#fff" stroke-width="1"/>
+    <path id="Path_30455" data-name="Path 30455" d="M39.261,44.616a1.31,1.31,0,1,1,0,2.62h-27.5a1.31,1.31,0,1,1,0-2.62Z" fill="#fff" stroke="#fff" stroke-width="1"/>
+  </g>
+</svg>
